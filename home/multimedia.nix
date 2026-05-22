@@ -5,10 +5,13 @@
       kdePackages.kdenlive
       obs-studio
       audacity
-     # mpv
+      mpv
       vlc
       parabolic
-     # calibre
+      calibre
+      gnome-podcasts
+      gpodder
+      strawberry
      # audiobookshelf
     ];
   }

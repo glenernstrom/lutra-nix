@@ -21,6 +21,7 @@
       kdePackages.kontactinterface
       super-productivity
       karp
+      joplin-desktop
     ];
 
   }

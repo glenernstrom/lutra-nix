@@ -8,11 +8,19 @@
     trustedInterfaces = [ "tailscale0" ];
   };
 
-  environment.systemPackages = with pkgs; [
-    dino
-  ];
+  services.syncthing = {
+    enable = true;
+    openDefaultPorts = true;
+    guiAddress = "0.0.0.0:8384";
+  };
+
+  #  environment.systemPackages = with pkgs; [
+  #    dino
+  #  ];
 
   services.tailscale.enable = true;
- # networking.firewall.allowedTCPPorts = [ 64738 ];
+
+  networking.firewall.allowedTCPPorts = [ 8384 ];
+
  # networking.firewall.allowedUDPPorts = [ 64738 ];
 }

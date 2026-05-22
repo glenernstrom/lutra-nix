@@ -3,8 +3,11 @@
   {
     home.packages =  [
       (pkgs.mumble.override { pulseSupport = true; })
-      element-desktop
-      fractal
+      pkgs.element-desktop
+      pkgs.slack
+      pkgs.zoom-us
+      pkgs.discord
+      pkgs.fractal
     ]; 
 
   } 
