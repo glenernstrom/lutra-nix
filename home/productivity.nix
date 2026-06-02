@@ -2,7 +2,7 @@
 
   {
     home.packages = with pkgs; [
-      libreoffice-qt
+      libreoffice-qt-fresh
       hunspell
       hunspellDicts.en_US
       hyphenDicts.en_US

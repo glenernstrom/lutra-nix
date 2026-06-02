@@ -8,6 +8,11 @@
           ggplot2
 	        dplyr
 	        tidyverse
+          DescTools
+          lubridate
+          nycflights13
+          psych
+          car
         ];};
 
       Rstudio-with-packages = rstudioWrapper.override{
@@ -15,6 +20,11 @@
           ggplot2
 	        dplyr
 	        tidyverse
+          DescTools
+          lubridate
+          nycflights13
+          psych
+          car
         ];};
 
     in

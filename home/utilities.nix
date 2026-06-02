@@ -11,6 +11,13 @@
       kdePackages.kbackup
       kdePackages.kamoso
       kdePackages.kcalc
+      jdupes
+      rdfind
+      rmlint
+      czkawka
+      sqlite
+      b3sum
+      tesseract5
     ]; 
 
   }
