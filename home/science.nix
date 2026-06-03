@@ -13,7 +13,10 @@
           nycflights13
           psych
           car
-        ];};
+          quarto
+          pandoc
+        ];
+      };
 
       Rstudio-with-packages = rstudioWrapper.override{
         packages = with rPackages; [
@@ -25,7 +28,10 @@
           nycflights13
           psych
           car
-        ];};
+          quarto
+          pandoc
+        ];
+      };
 
     in
     [
@@ -39,15 +45,6 @@
       kile
       texliveFull
       pandoc
-      kdePackages.kcharselect
-      kdePackages.kcolorchooser
-      kdePackages.isoimagewriter
-      kdePackages.k3b
-      kdePackages.filelight
-      kdePackages.partitionmanager
-      kdePackages.ksystemlog
-      kdePackages.kamoso
-      kdePackages.kteatime
     ]; 
 
   }
