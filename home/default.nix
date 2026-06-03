@@ -13,6 +13,7 @@
     ./science.nix
     ./nvim/neovim.nix
     ./ghostty/ghostty.nix
+    ./tui.nix
   ];
 
   home.stateVersion = "25.11";
