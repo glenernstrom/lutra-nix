@@ -2,16 +2,20 @@
 
   {
     home.packages = with pkgs; [
-      kdePackages.kdenlive
-      obs-studio
+    # kdePackages.kdenlive
+    # obs-studio
       audacity
-      mpv
+      shotcut
+      kooha
+   #  mpv
       vlc
       parabolic
-      calibre
+      foliate
+      cozy
+    #  calibre
       gnome-podcasts
-      gpodder
-      strawberry
-     # audiobookshelf
+      pdfarranger
+    #  gpodder
+    # strawberry
     ];
   }

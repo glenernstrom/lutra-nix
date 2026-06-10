@@ -5,7 +5,7 @@
       inkscape
       gimp
       scribus
-      krita
+    # krita
       xournalpp
      ]; 
 

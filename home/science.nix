@@ -13,8 +13,6 @@
           nycflights13
           psych
           car
-          quarto
-          pandoc
         ];
       };
 
@@ -28,8 +26,6 @@
           nycflights13
           psych
           car
-          quarto
-          pandoc
         ];
       };
 
@@ -40,11 +36,9 @@
       pymol
       nucleus
       coulomb
-      kdePackages.kalzium
-      kdePackages.cantor
-      kile
       texliveFull
       pandoc
+      texmaker
     ]; 
 
   }
