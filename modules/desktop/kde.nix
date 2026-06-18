@@ -14,6 +14,15 @@ services.desktopManager.plasma6.enable = true;
 # Enable the X11 windowing system.
 services.xserver.enable = true;
 
+ nixpkgs.config.permittedInsecurePackages = [
+  "electron-39.8.10"
+   "olm-3.2.16"
+ ];
+
+programs.kde-pim.enable = true;
+programs.kde-pim.kontact = true;
+programs.kde-pim.kmail = true;
+
 # Configure keymap in X11
   services.xserver.xkb = {
     layout = "us";

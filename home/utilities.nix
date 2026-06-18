@@ -3,14 +3,15 @@
   {
     home.packages = with pkgs; [
       pcloud
-  #   organicmaps
-  #   kdePackages.skanpage
+      bitwarden-desktop
+      organicmaps
+      kdePackages.skanpage
       honeyfetch
-  #    kdePackages.sweeper
-  #    kdePackages.kget
-  #    kdePackages.kbackup
-  #    kdePackages.kamoso
-  #    kdePackages.kcalc
+      kdePackages.sweeper
+      kdePackages.kget
+      kdePackages.kbackup
+      kdePackages.kamoso
+      kdePackages.kcalc
       jdupes
       rdfind
       rmlint
@@ -18,16 +19,14 @@
       sqlite
       b3sum
       tesseract5
-      warp
-  #    kdePackages.kcharselect
-  #    kdePackages.kcolorchooser
-  #    kdePackages.isoimagewriter
-  #    kdePackages.k3b
-  #    kdePackages.filelight
-  #    kdePackages.partitionmanager
-  #    kdePackages.ksystemlog
-  #    kdePackages.kamoso
-  #    kdePackages.kteatime
+      kdePackages.kcharselect
+      kdePackages.kcolorchooser
+      kdePackages.isoimagewriter
+      kdePackages.k3b
+      kdePackages.filelight
+      kdePackages.partitionmanager
+      kdePackages.ksystemlog
+      kdePackages.kamoso
     ]; 
 
   }

@@ -7,7 +7,7 @@
       pkgs.slack
       pkgs.zoom-us
       pkgs.discord
-      pkgs.fractal
+      pkgs.kdePackages.neochat
     ]; 
 
   } 

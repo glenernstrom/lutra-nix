@@ -7,6 +7,7 @@
 
      drivers = [
        pkgs.gutenprint
+       pkgs.hplip
      ];
    };
 
