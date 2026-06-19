@@ -5,7 +5,6 @@
       pcloud
       bitwarden-desktop
       organicmaps
-      kdePackages.skanpage
       honeyfetch
       kdePackages.sweeper
       kdePackages.kget
@@ -27,6 +26,11 @@
       kdePackages.partitionmanager
       kdePackages.ksystemlog
       kdePackages.kamoso
-    ]; 
-
+      (kdePackages.skanpage.override {
+        tesseractLanguages = [ "eng" ];
+      })
+      (kdePackages.spectacle.override {
+        tesseractLanguages = [ "eng" ];
+      })
+    ];
   }

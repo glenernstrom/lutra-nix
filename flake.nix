@@ -1,5 +1,5 @@
  {
-   description = "Glen's NixOS multimachine config";
+   description = "Glen's NixOS KDE Plasma config";
 
    inputs = {
      # nixpkgs.url = "github:NixOS/nixpkgs/nixos-26.05";
