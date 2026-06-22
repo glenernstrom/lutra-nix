@@ -1,4 +1,4 @@
-  { config, pkgs, ... }:
+  {config, pkgs, ... }:
 
   {
     home.packages = with pkgs; [
@@ -32,5 +32,6 @@
       (kdePackages.spectacle.override {
         tesseractLanguages = [ "eng" ];
       })
+      cameractrls
     ];
   }

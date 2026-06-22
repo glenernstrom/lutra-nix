@@ -24,7 +24,7 @@ in
       fira-code
       jetbrains-mono
       nerd-fonts.jetbrains-mono
-
+      adwaita-fonts
       lucidaFonts
     ];
 

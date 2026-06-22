@@ -19,10 +19,6 @@ services.xserver.enable = true;
    "olm-3.2.16"
  ];
 
-programs.kde-pim.enable = true;
-programs.kde-pim.kontact = true;
-programs.kde-pim.kmail = true;
-
 # Configure keymap in X11
   services.xserver.xkb = {
     layout = "us";

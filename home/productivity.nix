@@ -24,6 +24,8 @@
       gst_all_1.gst-plugins-good
       gst_all_1.gst-plugins-ugly
       gst_all_1.gst-rtsp-server
+      kdePackages.akregator
+      thunderbird
     ];
 
   }
