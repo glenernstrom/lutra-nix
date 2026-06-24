@@ -6,7 +6,6 @@
   home-manager.users.glen = {
   imports = [
     ./productivity.nix
-    ./graphics.nix
     ./internet.nix
     ./multimedia.nix
     ./utilities.nix

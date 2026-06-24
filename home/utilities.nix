@@ -33,5 +33,6 @@
         tesseractLanguages = [ "eng" ];
       })
       cameractrls
+      mediawriter
     ];
   }
