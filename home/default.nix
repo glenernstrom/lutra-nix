@@ -10,6 +10,7 @@
     ./multimedia.nix
     ./utilities.nix
     ./science.nix
+    ./graphics.nix
     ./nvim/neovim.nix
     ./ghostty/ghostty.nix
     ./tui.nix
