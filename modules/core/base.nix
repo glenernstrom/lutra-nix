@@ -14,6 +14,9 @@
   environment.systemPackages = with pkgs; [
     curl
     wget
+    adwaita-icon-theme
+    gnome-icon-theme
+    hicolor-icon-theme
   ];
  # environment.localBinInPath = true;
   services.dbus.enable = true;
