@@ -14,6 +14,7 @@
     ./nvim/neovim.nix
     ./ghostty/ghostty.nix
     ./tui.nix
+    ./games.nix
   ];
 
   home.stateVersion = "25.11";

@@ -18,6 +18,10 @@
       sqlite
       b3sum
       tesseract5
+      ntfsprogs-plus
+      e2fsprogs
+      parted
+      gparted-full
       kdePackages.kcharselect
       kdePackages.kcolorchooser
       kdePackages.isoimagewriter
@@ -26,6 +30,8 @@
       kdePackages.partitionmanager
       kdePackages.ksystemlog
       kdePackages.kamoso
+      kdePackages.kpmcore
+      kdePackages.marble
       (kdePackages.skanpage.override {
         tesseractLanguages = [ "eng" ];
       })
@@ -34,5 +40,7 @@
       })
       cameractrls
       mediawriter
+      _7zz
+      fwupd
     ];
   }

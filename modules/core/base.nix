@@ -9,14 +9,15 @@
 
   programs.firefox.enable = true;
   programs.git.enable = true;
+  programs.partition-manager.enable = true;
 
-    
   environment.systemPackages = with pkgs; [
     curl
     wget
     adwaita-icon-theme
     gnome-icon-theme
     hicolor-icon-theme
+    wine
   ];
  # environment.localBinInPath = true;
   services.dbus.enable = true;
